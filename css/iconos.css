@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --facebook: #093b29;
+    --instagram: #093b29;
+    --twitter: #093b29;
+}
+
+.redes-container{
+    display: flex;
+    height: 11vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-container ul li{
+    display: inline-block;
+    margin: 0 4px;
+    width: 30px;
+    text-align: center;
+
+}
+
+.redes-container ul li a{
+    display: block;
+    padding: 0 10px;
+    background: #4e73df;
+    color: #fff;
+    line-height: 30px;
+    font-size: 11px;
+    transition: .2s;
+    
+}
